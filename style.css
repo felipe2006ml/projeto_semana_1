@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+body{
+    background-image: url('img/background.jpeg');
+    color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#title {
+    height: 400px;
+    background-image: url('img/Singed-cover.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+
+#title h1 {
+    color: White;
+    font-size: 150px;
+    text-align: center;
+    padding-top: 150px;
+    text-shadow: 10px 10px 10px rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+nav {
+    padding: 30px;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+nav a{
+    text-decoration: none;
+    padding: 100px;
+    color: white;
+    font-size: 1.5em;
+    padding: 30px;
+}
+
+nav a:hover {
+    background-color: white;
+    color: black;
+    text-decoration: underline;
+    transition: .7s;
+}
+
+.fixoNoTopo {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+#img-div {
+    padding-top: 50px;
+}
+
+#img-div img {
+    border: white solid 5px;
+    border-radius: 50px;
+    width: 300px;
+    background-color:rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+
+#img-div p {
+    padding: 20px 20px;
+    font-size: 20px;
+}
+
+#content-sobre {
+    padding-top: 100px;
+    display:flex;
+    justify-content: space-between;
+}
+
+#sobre {
+    padding: 20px 10px 10px 10px;
+    border: 5px solid white;
+    background-color:rgba(0,0,0, 0.5);
+    width: 50%;
+    border-radius: 20px;
+    text-align: justify;
+    margin: auto;
+}
+
+.titulo h1 {
+    font-size: 50px;
+    padding-bottom: 30px;
+}
+
+#sobre p {
+    font-size: 20px;
+    line-height: 30px;
+    text-align: justify;
+}
+
+#sobre .link {
+    color: white;
+}
+
+#imagens {
+    border: 5px solid white;
+    border-radius: 10px;
+    margin: 150px 30px 100px 30px;
+    padding: 30px;
+}
+
+#habilidades {
+    border: 5px solid white;
+    border-radius: 10px;
+    margin: 150px 30px 0px 30px;
+    padding: 30px 30px 0px 30px;
+}
+
+
+.habvideos {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.hability {
+    border: 5px solid white;
+    border-radius: 10px;
+    margin: auto;
+
+}
+
+.img {
+    border-radius: 30px;
+    padding: 5px;
+    width: 100px;
+    height: 85px;
+    border: 1px solid white;
+}
+
+
+.video {
+    width: 500px;
+    height: 500px;
+}
